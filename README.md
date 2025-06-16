@@ -2,7 +2,6 @@
 This project implements a Convolutional Neural Network (CNN) to classify digits (0–9) from the SVHN (Street View House Numbers) dataset. 
 The model is built using Keras and TensorFlow, and achieves high accuracy with a lightweight custom architecture.
 
-
 ## Key Features
 - Input: 32×32 grayscale images
 - Model: Custom CNN (`cnn_model_2`)
@@ -13,19 +12,23 @@ The model is built using Keras and TensorFlow, and achieves high accuracy with a
 - Loss: Categorical crossentropy
 - Accuracy: ~93% (test set)
 
-## Project Structure
-svhn-digit-recognition/
-├── models/
-│ └── cnn_model_2.py # Model architecture
-├── notebooks/
-│ └── svhn_training_and_eval.ipynb # End-to-end training notebook
-├── requirements.txt # Python dependencies
-├── .gitignore
-└── README.md
-
 ## Dataset
 - **Name**: SVHN (Format 2 - Cropped Digits)
 - **Size**:
   - Training: 42,000 images
   - Testing: 18,000 images
 - **Note**: Convert to grayscale and normalize to [0,1] for training
+
+## Project Structure
+
+svhn-digit-recognition/
+- models/cnn_model_2.py # Model architecture
+- notebooks/svhn_training_and_eval.ipynb # End-to-end training notebook
+- requirements.txt # Python dependencies
+- .gitignore
+- README.md
+
+## Developer Info
+Made by **Minyoung Hong**  
+🔗 [LinkedIn](https://www.linkedin.com/in/minyoung-hong/)  
+📬 minyoung.hong07@gmail.com
